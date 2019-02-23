@@ -1,0 +1,3 @@
+#!/bin/bash
+
+curl https://api.coinmarketcap.com/v1/ticker/$1/

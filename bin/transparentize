@@ -1,0 +1,3 @@
+#!/bin/bash
+
+convert $1 -fuzz 0% -transparent white $1

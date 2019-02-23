@@ -1,0 +1,12 @@
+#!/bin/bash
+
+convert \
+  -size 500x500 \
+  -background "#F1FAEE" \
+  -font ~/Library/Fonts/MajorMonoDisplay-Regular.ttf \
+  -gravity none \
+  -pointsize 112 \
+  -interline-spacing -7.2 \
+  -fill "#457B9D" \
+  caption:"\n $1\n" \
+  $1.png
